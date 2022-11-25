@@ -18,7 +18,7 @@ void loop()
   float h = 50.88;
   float t = 15.33;
   
-  // Creating a JsonBuffer and assigning the json object to a variable
+  // Creating a JsonBuffer with size of 1000 and assigning the json object to a variable
   // This syntax is a bit different in ArduinoJson6 
   StaticJsonBuffer<1000> jsonBuffer;
   JsonObject& data = jsonBuffer.createObject();
